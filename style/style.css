@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
+.home-button img {
+  width: 40px;     
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.home-button img:hover {
+  opacity: 0.7;     
+}
+.hero-section {
+    width: 100%;
+    height: 100vh;                 
+    background-image: url("/assets/images/oceanreset1.jpg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    color: #FFFFD8;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* west vancouver */
+.location {
+    font-family: "Great Vibes", cursive;
+    font-size: 2rem;
+    position: absolute;
+    top: 20px;              
+    left: 50%;
+    transform: translateX(-50%);
+    color: #FFFFD8;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+}
+
+/* ocean reset title */
+.ocean-reset {
+    font-family: "Great Vibes", cursive;
+    font-size: 6rem;
+    letter-spacing: 5px;
+    margin-left: 1px;
+}
+
+
+/* hidden shores to unwind */
+.subtitle {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.8rem;
+    margin-top: 1px;
+}
+
+/* about */
+.about {
+    background-color: white;
+    padding: 40px 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.about h2 {
+    font-size: 2.7rem;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 20px;
+}
+.about p {
+    font-family: "Helvetica", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #000000;
+    margin-bottom:10px;
+    padding-bottom: 30px;
+}
+
+/* pohoto below about section */
+.image-section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.image-section img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* green text */
+.green-text-section {
+    background: #C1C5A9;
+    text-align: center;
+    padding: 45px 50px;
+}
+.green-text-section h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    color: black;
+    margin: 0 0 30px;
+}
+.green-text-section p {
+    max-width: 900px;
+    font-family: Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 19px;
+    color: #000000;
+}
+
+/* beige text */
+.beige-strip {
+    background: #F7F3EA;
+    padding: 60px 40px;
+}
+.beige-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.9rem;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.beige-subtitle {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.2rem;
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    padding-right: 40px;
+}
+
+/* lighthouse */
+.lighthouse-section {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.lighthouse-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;           
+}
+.lighthouse-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.lighthouse-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.learn-btn {
+    display: inline-block;
+    background: white;
+    padding: 10px 22px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #000;
+    transition: 0.2s;
+}
+.learn-btn:hover {
+    background: #e5e5e5;
+}
+
+/* whytecliff */
+.whytecliff-section {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.whytecliff-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;           
+}
+.whytecliff-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.whytecliff-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.learn-btn {
+    display: inline-block;
+    background: white;
+    padding: 10px 22px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #000;
+    transition: 0.2s;
+}
+.learn-btn:hover {
+    background: #e5e5e5;
+}
+
+/* horseshoe bay lookout */
+.horseshoebay-section {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.horseshoebay-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;           
+}
+.horseshoebay-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.horseshoebay-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 4rem;
+    color: black;
+    margin-bottom: 20px;
+}
+.learn-btn {
+    display: inline-block;
+    background: white;
+    padding: 10px 22px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 1px solid #000;
+    transition: 0.2s;
+}
+.learn-btn:hover {
+    background: #e5e5e5;
+}
+
+/* brown bar */
+.transition-bar {
+    height: 35px;
+    background: #482E1D;   
+}
+
+/* why breathing matters */
+.breathing-section {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+.breathing-section h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    color: #495235;
+    margin-bottom: 20px;
+}
+.intro {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #495235;
+    margin-bottom: 20px;
+}
+.steps {
+    margin-top: 40px;
+}
+/* breathing boxes */
+.step-box {
+    background: #C1C5A9;      
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+/* numbers */
+.number {
+    font-family: "great vibes";
+    font-size: 50px;
+    margin-right: 25px;
+}
+
+/* footer */
+footer {
+    background: #482E1D;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+/* footer icons */
+.icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icon-links a {
+  color: #F0EAD8; 
+  background-color: #482E1D; 
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+.icon-links a:hover {
+  background-color: #60442B; 
+}
+
+.menu-header {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+
+/* icons */
+.hamburger-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+.hamburger-btn img {
+    width: 85px;
+    height: 45px;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 220px;
+    background: #F0EAD8;     
+    padding: 0;
+    border-radius: 12px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease-out;
+    z-index: 9999;
+    font-family: Helvetica, sans-serif;   
+}
+.dropdown-menu.open {
+   padding: 12px 0;
+    max-height: 300px;
+}
+.dropdown-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.dropdown-menu li {
+ padding: 10px 18px;
+}
+.dropdown-menu a {
+    color: black;                            
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Helvetica, sans-serif;     
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.dropdown-menu img {
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+}
